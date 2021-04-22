@@ -1,0 +1,148 @@
+:root{
+    --titre-color: #222222;
+    --p-color: #444444;
+    --fond: #EDF6F5;
+    --interaction: #0AA8A7;
+}
+html{
+    font-family:"lato";
+}
+
+.logo{
+    max-width: 50em;
+    min-width: 10em;
+}
+
+.menu{
+    width: 2em;
+}
+
+.button {
+    text-align: center;
+    border-radius: 1em;
+    margin: 2em;
+    padding: 1em 1.5em;
+    background-color: #0AA8A7;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.integration{
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: var(--titre-color);
+}
+
+p{
+    color: var(--p-color);
+    text-align: center;
+}
+
+.button{
+    background-color: var(--interaction);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin:auto
+}
+
+a{
+    color: var(--interaction);
+    text-decoration: none;
+}
+
+.image{
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+H2{
+    text-align: center;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+.bg-vert{
+    background-color: var(--fond);
+}
+
+.text div{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.icones{
+    width: 50px;
+}
+
+.graph H2, .graph p{
+    text-align: left;
+}
+
+.graph{
+    padding: 20px;
+}
+
+.end{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.contener{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation{
+    width: 50%;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.icones-rs{
+    width: 30px;
+}
+
+.contener-icones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation p{
+    text-align: left;
+}
+
+.navigation .image{
+    margin-bottom: 1rem;
+}
+
+footer{
+    margin-top: 2rem;
+}
